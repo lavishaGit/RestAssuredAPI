@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "programId": {
+      "type": "integer"
+    },
+    "programName": {
+      "type": "string"
+    },
+    "programDescription": {
+      "type": "string"
+    },
+    "online": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "programId",
+    "programName",
+    "programDescription",
+    "online"
+  ]
+}

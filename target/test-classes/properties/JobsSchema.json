@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "Job Title": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            },
+            "1": {
+              "type": "string"
+            },
+            "2": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0",
+            "1",
+            "2"
+          ]
+        },
+        "Job Company Name": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            },
+            "1": {
+              "type": "string"
+            },
+            "2": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0",
+            "1",
+            "2"
+          ]
+        },
+        "Job Location": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            },
+            "1": {
+              "type": "string"
+            },
+            "2": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0",
+            "1",
+            "2"
+          ]
+        },
+        "Job Type": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            },
+            "1": {
+              "type": "string"
+            },
+            "2": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0",
+            "1",
+            "2"
+          ]
+        },
+        "Job Posted time": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            },
+            "1": {
+              "type": "string"
+            },
+            "2": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0",
+            "1",
+            "2"
+          ]
+        },
+        "Job Description": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            },
+            "1": {
+              "type": "string"
+            },
+            "2": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0",
+            "1",
+            "2"
+          ]
+        },
+        "Job Id": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            },
+            "1": {
+              "type": "string"
+            },
+            "2": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0",
+            "1",
+            "2"
+          ]
+        }
+      },
+      "required": [
+        "Job Title",
+        "Job Company Name",
+        "Job Location",
+        "Job Type",
+        "Job Posted time",
+        "Job Description",
+        "Job Id"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
